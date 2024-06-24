@@ -26,7 +26,7 @@ def time_please():
         if "AM" in timeVar:
             message = "Good morning!"
         else:
-            message = "Guten abend salle!"
+            message = "Good evening!"
 
         greeting.config(text=message)
         time.sleep(1)
